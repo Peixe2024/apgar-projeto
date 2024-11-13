@@ -1,0 +1,37 @@
+p {
+color: black;
+
+}
+#divBusca {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 5px 10px;
+    width: 300px; /* Adjust width as needed */
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+#txtBusca {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+#btnBusca {
+    cursor: pointer;
+    width: 24px; /* Adjust size as needed */
+    height: 24px; /* Adjust size as needed */
+    margin-left: 10px;
+}
+
+/* Optional: Add hover effect for the button */
+#btnBusca:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
